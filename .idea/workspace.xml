@@ -9,13 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="029d7698-6a8a-4b89-a2c0-3222ada0f496" name="Changes" comment="подключил основные зависмости через pom.xml">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/khodyrev/springcourse/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/khodyrev/springcourse/config/SpringConfig.java" afterDir="false" />
+    <list default="true" id="029d7698-6a8a-4b89-a2c0-3222ada0f496" name="Changes" comment="изменил способ подключения зависимостей на java код">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/khodyrev/springcourse/config/controllers/FirstController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/khodyrev/springcourse/config/controllers/SecondController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/goodbye.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/second/exit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/khodyrev/springcourse/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/khodyrev/springcourse/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContextMVC.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/khodyrev/springcourse/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello_world.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -62,6 +65,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Tomcat Server.Tomcat 10.1.26.executor": "Run",
@@ -187,7 +191,8 @@
       <workItem from="1722758665975" duration="1660000" />
       <workItem from="1722760738561" duration="4122000" />
       <workItem from="1722783794266" duration="1510000" />
-      <workItem from="1722785321240" duration="4520000" />
+      <workItem from="1722785321240" duration="4910000" />
+      <workItem from="1722851152255" duration="2225000" />
     </task>
     <task id="LOCAL-00001" summary="создал новый проект для изучения mvc, связал удаленный и локальный репозитории">
       <option name="closed" value="true" />
@@ -205,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722764829275</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="изменил способ подключения зависимостей на java код">
+      <option name="closed" value="true" />
+      <created>1722790225187</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722790225187</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +238,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="создал новый проект для изучения mvc, связал удаленный и локальный репозитории" />
     <MESSAGE value="подключил основные зависмости через pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="подключил основные зависмости через pom.xml" />
+    <MESSAGE value="изменил способ подключения зависимостей на java код" />
+    <option name="LAST_COMMIT_MESSAGE" value="изменил способ подключения зависимостей на java код" />
   </component>
 </project>
